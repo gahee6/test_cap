@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    //메인화면
+    //리사이클러뷰, 버튼 등 화면 구성
+    //메인화면이랑 내 글 목록 화면의 리사이클러뷰, 버튼 id 달라야함
+    //MainAdd 누르면 심부름 글쓰는 화면으로 이동
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ReportRv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarFadeDuration="0"
+        android:scrollbarSize="5dp"
+        android:scrollbarThumbVertical="@android:color/darker_gray"
+        android:scrollbars="vertical"
+        android:layout_weight="1" >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
